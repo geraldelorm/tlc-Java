@@ -3,6 +3,6 @@ package com.turntabl;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Trade trade = new Trade.BondTrade(2);
     }
 }
