@@ -1,6 +1,6 @@
 package com.turntabl;
 
-public class UseInter implements Aninterface, B{
+public class UseInterface implements A, B{
 
     @Override
     public void printVal() {
