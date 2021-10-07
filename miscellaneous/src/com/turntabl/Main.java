@@ -70,7 +70,9 @@ public class Main {
         for(Person p : pep){
             System.out.println(p.getName());
         }
-        
+
+        List<?> numbers = new ArrayList<>();
+
 
     }
 }
