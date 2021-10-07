@@ -1,12 +1,12 @@
 package com.turntabl;
 
-import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 import java.util.Set;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SetTest {
     @Test

@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Main {
 
-
     public static void main(String[] args) {
 //        Lion lion = new Lion(Color.red, 20, Color.blue);
 //        lion.eat();
@@ -44,16 +43,34 @@ public class Main {
 //        }
 
 
-        List<Person> pep = new ArrayList<Person>();
-        pep.add(new Person("Gee", 70));
-        pep.add(new Person("Danny", 90));
-        pep.add(new Person("Mack", 57));
-        pep.add(new Person("Ama", 30));
+//        List<Person> pep = new ArrayList<>();
+//        pep.add(new Person("Gee", 40));
+//        pep.add(new Person("Danny", 30));
+//        pep.add(new Person("Mack", 20));
+//        pep.add(new Person("Ama", 10));
+//
+//
+//
+//        Collections.sort(pep);
+//
+//        for(Person p : pep){
+//            System.out.println(p.getName());
+//        }
+
+        List<Person> pep = new ArrayList<>();
+        pep.add(new Person("Gee", 40));
+        pep.add(new Person("Danny", 30));
+        pep.add(new Person("Mack", 20));
+        pep.add(new Person("Ama", 10));
 
 
-        Collections.sort(pep);
+
+        Collections.sort(pep, new NameOrder());
+
         for(Person p : pep){
             System.out.println(p.getName());
         }
+        
+
     }
 }
