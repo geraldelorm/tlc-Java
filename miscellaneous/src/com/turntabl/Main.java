@@ -76,5 +76,13 @@ public class Main {
 
 //        Account acc = new Account(100);
 //        acc.withdrawal(300);
+
+        Outer.Inner inner = new Outer.Inner("Something");
+        inner.display();
+
+        Outer outerObj = new Outer();
+        Outer.InnerNonStatic innerNonStatic = outerObj.new InnerNonStatic();
+        innerNonStatic.display();
+
     }
 }
