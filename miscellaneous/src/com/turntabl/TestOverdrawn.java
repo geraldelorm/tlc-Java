@@ -10,7 +10,7 @@ public class TestOverdrawn {
     public void overDrawnException() throws OverdrawnException{
         Account acc = new Account(100);
 
-        assertThrows(OverdrawnException.class, () -> acc.withdraw(200));
+        assertThrows(OverdrawnException.class, () -> acc.withdrawal(200));
 
     }
 }

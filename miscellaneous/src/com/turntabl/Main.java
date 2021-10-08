@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws OverdrawnException {
 //        Lion lion = new Lion(Color.red, 20, Color.blue);
 //        lion.eat();
 //
@@ -49,30 +49,31 @@ public class Main {
 //        pep.add(new Person("Mack", 20));
 //        pep.add(new Person("Ama", 10));
 //
-//
-//
 //        Collections.sort(pep);
 //
 //        for(Person p : pep){
 //            System.out.println(p.getName());
 //        }
+//
+//
+//
+//        List<Person> pep = new ArrayList<>();
+//        pep.add(new Person("Gee", 40));
+//        pep.add(new Person("Danny", 30));
+//        pep.add(new Person("Mack", 20));
+//        pep.add(new Person("Ama", 10));
+//
+//
+//
+//        Collections.sort(pep, new NameOrder());
+//
+//        for(Person p : pep){
+//            System.out.println(p.getName());
+//        }
+//
+//        List<?> numbers = new ArrayList<>();
 
-        List<Person> pep = new ArrayList<>();
-        pep.add(new Person("Gee", 40));
-        pep.add(new Person("Danny", 30));
-        pep.add(new Person("Mack", 20));
-        pep.add(new Person("Ama", 10));
-
-
-
-        Collections.sort(pep, new NameOrder());
-
-        for(Person p : pep){
-            System.out.println(p.getName());
-        }
-
-        List<?> numbers = new ArrayList<>();
-
-
+//        Account acc = new Account(100);
+//        acc.withdrawal(300);
     }
 }
