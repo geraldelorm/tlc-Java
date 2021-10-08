@@ -63,15 +63,16 @@ public class Main {
 //        pep.add(new Person("Mack", 20));
 //        pep.add(new Person("Ama", 10));
 //
-//
-//
 //        Collections.sort(pep, new NameOrder());
 //
 //        for(Person p : pep){
 //            System.out.println(p.getName());
 //        }
 //
+
+
 //        List<?> numbers = new ArrayList<>();
+
 
 //        Account acc = new Account(100);
 //        acc.withdrawal(300);
